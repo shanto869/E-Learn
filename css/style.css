@@ -1,0 +1,95 @@
+:root {
+    --main-font: 'Poppins', sans-serif;
+    --brand-color: #289BDE;
+    --brand-color2: #161616;
+    --heading-txt-color: #1D1D1D;
+    --para-txt-color: #777777;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn, .btn-close, input, textarea {
+    box-shadow: none !important;
+}
+
+.navbar button:focus {
+    box-shadow: none;
+}
+
+.para-color {
+    color: var(--para-color);
+}
+
+.heading-color {
+    color: var(--heading-color);
+}
+
+.brand-color {
+    background: var(--brand-color);
+}
+
+.brand-color2 {
+    background: var(--brand-color2);
+}
+
+.text-brand {
+    color: var(--brand-color);
+}
+
+.check-mark {
+    color: #5243C2;
+}
+
+.ff-poppins {
+    font-family: var(--main-font);
+}
+
+/* ====================
+    common css ends 
+ ==================== */
+#header {
+    margin-top: 100px;
+}
+ .carousel-item::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+    top: 0;
+    left: 0;
+ }
+
+ .carousel-caption {
+    z-index: 99;
+ }
+
+/* ====================
+    typography css ends 
+ ==================== */
+ .courses-heading {
+    /* padding: 0 250px; */
+}
+/* ====================
+    our courses css ends 
+ ==================== */
+
+ .companies-img img {
+    width: 10%;
+ }
+/* ====================
+    our courses css ends 
+ ==================== */
+
