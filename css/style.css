@@ -1,9 +1,9 @@
 :root {
     --main-font: 'Poppins', sans-serif;
     --brand-color: #289BDE;
-    --brand-color2: #161616;
+    --brand-color2: #ff3e8a;
     --heading-txt-color: #1D1D1D;
-    --para-txt-color: #777777;
+    --para-txt-color: #4A4A4A;
 }
 
 * {
@@ -20,7 +20,7 @@ ul {
     list-style: none;
 }
 
-.btn, .btn-close, input, textarea {
+.btn, .btn-close, input, textarea, button {
     box-shadow: none !important;
 }
 
@@ -29,11 +29,11 @@ ul {
 }
 
 .para-color {
-    color: var(--para-color);
+    color: var(--para-txt-color);
 }
 
 .heading-color {
-    color: var(--heading-color);
+    color: var(--heading-txt-color);
 }
 
 .brand-color {
