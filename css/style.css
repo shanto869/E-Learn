@@ -12,14 +12,6 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
 .btn, .btn-close, input, textarea, button {
     box-shadow: none !important;
 }
@@ -48,12 +40,12 @@ ul {
     color: var(--brand-color);
 }
 
-.check-mark {
-    color: #5243C2;
-}
-
 .ff-poppins {
     font-family: var(--main-font);
+}
+
+.price-color {
+    color: #1e38a3;
 }
 
 /* ====================
@@ -82,7 +74,6 @@ ul {
     left: 8px;
     background: #ffce32;
     transition: all linear .3s;
-
 }
 
 .navbar .nav-link:hover:after {
@@ -114,15 +105,35 @@ ul {
 /* ====================
     banner css ends 
  ==================== */
+ .courses .course-img {
+    overflow: hidden;
+ }
+
+ .courses .course-img img {
+    transition: all linear .3s;
+ }
+
+.courses .course-img img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.courses .course-info {
+    transition: all linear .3s;
+}
+
+.courses .course-info:hover {
+
+}
 
 /* ====================
-    our courses css ends 
+    courses css ends 
  ==================== */
 
  .companies-img img {
     width: 10%;
  }
 /* ====================
-    our courses css ends 
+    companies css ends 
  ==================== */
 
