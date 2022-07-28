@@ -1,6 +1,6 @@
 :root {
     --main-font: 'Poppins', sans-serif;
-    --brand-color: #289BDE;
+    --brand-color: linear-gradient(to bottom, rgba(0, 78, 146, .9), rgba(0, 4, 40, .9));
     --brand-color2: #ff3e8a;
     --heading-txt-color: #1D1D1D;
     --para-txt-color: #4A4A4A;
@@ -59,15 +59,50 @@ ul {
 /* ====================
     common css ends 
  ==================== */
+
 #header {
     margin-top: 100px;
 }
+
+.navbar .nav-link {
+    position: relative;
+    transition: all linear .3s;
+}
+
+.navbar .nav-link:hover {
+    color: black;
+}
+
+.navbar .nav-link::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: 7px;
+    left: 8px;
+    background: #ffce32;
+    transition: all linear .3s;
+
+}
+
+.navbar .nav-link:hover:after {
+    width: 80%;
+}
+
+.navbar .nav-link:last-child::after {
+    width: 0%;
+}
+
+/* ====================
+    navbar css ends 
+ ==================== */
+
  .carousel-item::after {
     position: absolute;
     content: '';
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, .4);
+    background-image: linear-gradient(to bottom, rgba(0, 4, 40, .6), rgba(0, 78, 146, .6));
     top: 0;
     left: 0;
  }
@@ -77,11 +112,9 @@ ul {
  }
 
 /* ====================
-    typography css ends 
+    banner css ends 
  ==================== */
- .courses-heading {
-    /* padding: 0 250px; */
-}
+
 /* ====================
     our courses css ends 
  ==================== */
