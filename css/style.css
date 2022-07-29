@@ -20,14 +20,6 @@
     box-shadow: none;
 }
 
-.para-color {
-    color: var(--para-txt-color);
-}
-
-.heading-color {
-    color: var(--heading-txt-color);
-}
-
 .brand-color {
     background: var(--brand-color);
 }
@@ -134,6 +126,7 @@
 /* ====================
     courses css ends 
  ==================== */
+
 #student-feedback .feedback .feedback-stars i {
     color: #F59E0B;
 }
@@ -143,9 +136,8 @@
     color: #289BDE;
 }
 
-
 /* ====================
-    courses css ends 
+    student-feedback css ends 
  ==================== */
 
  .companies-img img {
@@ -154,8 +146,9 @@
 /* ====================
     companies css ends 
  ==================== */
+
 footer .social-icon i {
-    transition: all linear .3s;
+    transition: all linear .2s;
 }
 
 footer .social-icon i:hover {
