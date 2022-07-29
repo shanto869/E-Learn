@@ -138,6 +138,12 @@
     color: #F59E0B;
 }
 
+#student-feedback .feedback .arro {
+    z-index: 99;
+    color: #289BDE;
+}
+
+
 /* ====================
     courses css ends 
  ==================== */
