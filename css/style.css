@@ -134,6 +134,13 @@
 /* ====================
     courses css ends 
  ==================== */
+#student-feedback .feedback .feedback-stars i {
+    color: #F59E0B;
+}
+
+/* ====================
+    courses css ends 
+ ==================== */
 
  .companies-img img {
     width: 10%;
