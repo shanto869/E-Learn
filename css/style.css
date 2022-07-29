@@ -48,8 +48,8 @@
     color: #1e38a3;
 }
 
-.get {
-    background-color: #066ccd;
+.bg-reg {
+    background-color: #289BDE;
 }
 
 /* ====================
@@ -128,7 +128,7 @@
 }
 
 .courses .course-info:hover {
-
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 /* ====================
@@ -140,5 +140,16 @@
  }
 /* ====================
     companies css ends 
+ ==================== */
+footer .social-icon i {
+    transition: all linear .3s;
+}
+
+footer .social-icon i:hover {
+    color: #289BDE;
+}
+
+/* ====================
+    footer css ends 
  ==================== */
 
